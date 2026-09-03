@@ -6,10 +6,10 @@ export default defineConfig({
   entry: ['src'],
   outDir: 'dist',
   splitting: false,
-  sourcemap: true,
+  sourcemap: false,
   clean: true,
   minify: true,
-  format: ['cjs', 'esm'],
+  format: ['cjs'],
   onSuccess: async () => {
     cpSync('src/utils/translations', 'dist/translations', { recursive: true });
   },

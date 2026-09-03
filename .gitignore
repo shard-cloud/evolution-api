@@ -1,7 +1,6 @@
 # Repo
 Baileys
-# compiled output
-/dist
+# /dist intentionally not ignored — it's pre-built and committed here
 /node_modules
 
 /Docker/.env

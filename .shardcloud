@@ -3,4 +3,4 @@ DESCRIPTION=Self-hosted WhatsApp REST API and multi-device gateway built on Bail
 MEMORY=2048
 VERSION=recommended
 LANGUAGE=node
-CUSTOM_COMMAND=export DATABASE_CONNECTION_URI=$DATABASE && npm run db:deploy && npm run db:generate && npm run build && npm run start:prod
+CUSTOM_COMMAND=export DATABASE_CONNECTION_URI=$DATABASE && npm run db:deploy && npm run db:generate && npm run start:prod
